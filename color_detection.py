@@ -1,3 +1,6 @@
+'''
+this a python program to identify individual color from any picture using open cv module 
+'''
 import cv2
 import numpy as np
 
