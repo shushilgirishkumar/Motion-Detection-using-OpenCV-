@@ -42,7 +42,7 @@ def stackImages(scale, imgArray):
     return ver
 
 
-path = 'E:/shushil.jpg'
+path = 'nature.jpg'
 cv2.namedWindow("TrackBars")
 cv2.resizeWindow("TrackBars", 640, 240)
 cv2.createTrackbar("Hue Min", "TrackBars", 1, 179, empty)

@@ -50,7 +50,7 @@ cv2.createTrackbar("Val Min", "TrackBars", 0, 255, empty)
 cv2.createTrackbar("Val Max", "TrackBars", 255, 255, empty)
 
 while True:
-    img = cv2.imread('D:/dow.jpg',cv2.IMREAD_UNCHANGED)
+    img = cv2.imread('nature.png',cv2.IMREAD_UNCHANGED)
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     h_min = cv2.getTrackbarPos("Hue Min", "TrackBars")
     h_max = cv2.getTrackbarPos("Hue Max", "TrackBars")

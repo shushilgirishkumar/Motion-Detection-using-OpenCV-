@@ -1,4 +1,4 @@
-from cv2 import *
+import cv2
 import numpy as np
 
 
@@ -67,7 +67,7 @@ def getContours(img):
                         """
 
 
-path = 'E:/shapes.png'
+path = 'nature.jpg'
 img = cv2.imread(path)
 imgContour = img.copy()
 
